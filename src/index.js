@@ -13,5 +13,5 @@ app.use(express.json());
 
 app.use('/',route);
 app.listen(4000, function(){
-    console.log('express app running on port' + 4000)
+    console.log('Express app running on port ' + 4000)
 })
