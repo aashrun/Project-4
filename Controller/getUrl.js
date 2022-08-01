@@ -1,7 +1,5 @@
 const urlModel = require('../models/urlModel')
-
 const redis = require("redis");
-
 const { promisify } = require("util");
 
 //Connect to redis
